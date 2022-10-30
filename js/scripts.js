@@ -32,3 +32,7 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+document.getElementById('copytext').addEventListener('click',function(){
+    navigator.clipboard.writeText('9910763513')
+   
+})
